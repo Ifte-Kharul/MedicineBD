@@ -1,0 +1,90 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+  }
+.logo{
+    width: 10%;
+    margin-right: 0;
+}
+.custom{
+    color:red;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    
+}
+.admin_image{
+    width: 100px;
+    object-fit: contain;
+}
+.footer{
+   position: absolute;
+   bottom: 0; 
+   width: 100%;
+}
+.product_price{
+    color: red;
+}
+.no_stock_text{
+    text-align: center;
+    color: black;
+}
+.search-button{
+    padding: 1%;
+    background: white;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.search-button:hover{
+    background: burlywood;
+}
+.desc{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+/* single prod css */
+.con{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* cart css
+ */
+
+ .cart-image{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+ }
+
+
+/* .alert {
+    padding: 20px;
+    background-color: #f44336;  
+    
+    color: white;
+    margin-bottom: 15px;
+  } */
+   
+  /* The close button */
+  /* .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  } */
+  
+  /* When moving the mouse over the close button */
+  /* .closebtn:hover {
+    color: black;
+  } */
